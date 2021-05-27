@@ -196,7 +196,7 @@ public class CandyStoreFragment extends Fragment implements ListCandyStoreAdapte
                         CandyStore candyStore = response.body();
                         adapter.setListaSolicitudes(candyStore.getItem());
                         adapter.notifyDataSetChanged();
-                        Log.e(TAG, "Data candy store: " + candyStore.getItem().get(0).getName());
+                        Log.d(TAG, "Data candy store: " + candyStore.getItem().get(0).getName());
 
                     } else {
                         Log.e(TAG, "onError: " + response.errorBody().string());
@@ -323,7 +323,7 @@ public class CandyStoreFragment extends Fragment implements ListCandyStoreAdapte
                     int statusCode = response.code();
                     Log.d(TAG, "HTTP status code: " + statusCode);
                     PaymentResponse paymentResponse = response.body();
-                    Log.e(TAG, "onResponse: " + response.body().getTransactionResponse().getOrderId());
+                    Log.d(TAG, "onResponse: " + response.body().getTransactionResponse().getOrderId());
 
                     if (response.isSuccessful()) {
                         store_complete(response.body().getTransactionResponse().getOrderId(), person, dni, email);

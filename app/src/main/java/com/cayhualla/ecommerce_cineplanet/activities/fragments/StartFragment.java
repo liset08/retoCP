@@ -87,7 +87,7 @@ public class StartFragment extends Fragment {
                         Premiers premiers = response.body();
                         adapter.setListPremiers(premiers.getPremieres());
                         adapter.notifyDataSetChanged();
-                        Log.e(TAG, "Data candy store: ");
+                        Log.d(TAG, "Data candy store: ");
                     } else {
                         Log.e(TAG, "onError: " + response.errorBody().string());
                         throw new Exception("Error en el servicio");
