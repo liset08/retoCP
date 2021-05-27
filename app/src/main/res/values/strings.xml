@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Ecommerce_Cineplanet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Send PayU-->
+    <string name="language_start">es</string>
+    <string name="command">SUBMIT_TRANSACTION</string>
+    <string name="apiKey">4Vj8eK4rloUd272L48hsrarnUA</string>
+    <string name="apiLogin">pRRXKOl8ikMmt9u</string>
+    <string name="accountId">512323</string>
+    <string name="referenceCode">payment_test_00000001</string>
+    <string name="description">payment test</string>
+    <string name="language">es</string>
+    <string name="signature">cfddea273ca17d7e2ce3eed8e939f5a2</string>
+    <string name="notifyUrl">k</string>
+    <string name="currency">PEN</string>
+    <string name="merchantBuyerId">1</string>
+    <string name="contactPhone">5415668464654</string>
+    <string name="country">PE</string>
+    <string name="postalCode">000000</string>
+    <string name="phone">7563126</string>
+    <string name="street2">106</string>
+    <string name="street1">Cercado de Lima</string>
+    <string name="nameCreditCard">REJECTED</string>
+    <string name="merchantPayerId">1</string>
+    <string name="fullName">First name</string>
+    <string name="emailAddress">payertest@test.com</string>
+    <string name="contactPhonePayer">7563126</string>
+    <string name="dniNumber">5415668464654</string>
+    <string name="street1Payer">av abancay</string>
+    <string name="street2Payer">cra 4</string>
+    <string name="city">Iquitos</string>
+    <string name="state">LO</string>
+    <string name="postalCodePayer">64000</string>
+    <string name="phonePayer">7563126</string>
+    <string name="countryPayer">PE</string>
+    <string name="type">AUTHORIZATION</string>
+    <string name="paymentMethod">VISA</string>
+    <string name="paymentCountry">PE</string>
+    <string name="deviceSessionId">vghs6tvkcle931686k1900o6e1</string>
+    <string name="ipAddress">127</string>
+    <string name="cookie">pt1t38347bs6jc9ruv2ecpv7o2</string>
+    <string name="userAgent">0</string>
+    <string name="dl_login">Iniciando sesión</string>
+    <string name="dl_transaction">Realizando el pago. Espere un momento...</string>
+
+    <!--Validations-->
+    <string name="validate_only_numbers">"1234567890"</string>
+    <string name="validate_alphanumeric">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789</string>
+    <string name="validate_only_names">abcdefghijklmnopqrstuvwxyzáéíóú ABCDEFGHIJKLMNOPQRSTUVWXYZÁÉÍÓÚ</string>
+    <string name="validate_email">"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@.-_"</string>
+    <string name="txt_error">Ocurrió un problema. Intente de nuevo</string>
+
+
+</resources>
